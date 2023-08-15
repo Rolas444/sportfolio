@@ -17,6 +17,9 @@
     "portfolio":[
         {
             "name":"Next Ecommerce",
+            "desc": [
+                ""
+            ],
             "repo": [
                 "https://github.com/tomasferro29/pf-front",
                 "https://github.com/Rolas444/ecomerce-admin"
@@ -31,6 +34,7 @@
         },
         {
             "name":"Countries",
+            "desc": "",
             "repo": [
                 "https://github.com/Rolas444/PI-countries"
             ],
@@ -41,7 +45,8 @@
             ]
         },
         {
-            "name":"Countries",
+            "name":"Riada - Supabase",
+            "desc": "Sistema",
             "repo": [
                 "https://github.com/Rolas444/riada-supabase"
             ],
