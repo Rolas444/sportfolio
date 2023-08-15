@@ -1,0 +1,91 @@
+{
+    "name": "Rolando Samuel Ramírez Quispe",
+    "headline": "Full stack developer",
+    "resume": "I'm a web developer with experience in NodeJS, React, Redux, Zustand, Angular, PHP, Symfony, Go, Fiber, C#, .NET, SQL among other technologies in the sector. Creative thinking, problem solving, teamwork and autonomy.",
+    "contact": {
+        "email": "rolandosamuel.rq@gmail.com",
+        "phone": "+51 943808616",
+        "place": "Perú - Huancayo - Junín"
+    },
+    "links": {
+        "linkedin": "https://www.linkedin.com/in/rolando-ramirez-hr90/",
+        "github": "https://github.com/Rolas444",
+        "twitter": "",
+        "portfolio": "",
+        "docker": "https://hub.docker.com/u/hrodland90"
+    },
+    "techskills": [
+        "React",
+        "NodeJS",
+        "Angular",
+        ".NET",
+        "Go",
+        "PHP",
+        "SQL",
+        "NoSQL",
+        "Solid",
+        "Scrum"
+    ],
+    "softskills": [
+        "Proactivity",
+        "Leadership",
+        "Versatility",
+        "Resilience",
+        "Responsibility",
+        "Open minded"
+    ],
+    "languages": [
+        "English (intermediate)",
+        "Spanish"
+    ],
+    "expirience": [
+        {
+            "title": "Full Stack Developer - RiadaGo (own project)",
+            "desc": [
+                "Development of a system for the management of church membership with: Fiber (backend), React (frontend) and Postgres as a database engine.",
+                "<a target='_blank' href='https://github.com/Rolas444/RiadaGo'>Github</a>"
+            ],
+            "lapse": "Feb. 2023"
+        },
+        {
+            "title": "Software Developer - Solintels SAC",
+            "desc": [
+                "Provide support to end customers of the company's products (CreediSoft, SofiCoop, etc)",
+                "Resolve and/or implement development requests approved by the commercial area using .Net and MSSQL."
+            ],
+            "lapse": "Jun. 2021 – Aug. 2022"
+        },
+        {
+            "title": "Technical Support – Grupo Zarate Verástegui",
+            "desc": [
+                "Acquire, maintain and/or develop technological tools to support the educational service in schools and academies of the institution.",
+                "Development of a task management system with Firebase and Angular."
+            ],
+            "lapse": "Jan. 2017 – Mar. 2019"
+        },
+        {
+            "title": "Full Stack developer - Globitecs SAC",
+            "desc": [
+                "Automate the Single Format of the Comprehensive Health System using PHP and Symfony2."
+            ],
+            "lapse": "Jan. 2012 – Mar. 2012"
+        }
+    ],
+    "education": [
+        {
+            "title": "Full stack developer",
+            "inst": "SoyHenry Bootcamp",
+            "lapse": "Aug. 2022 – Mar. 2023"
+        },
+        {
+            "title": "Systems Engineer",
+            "inst": "Universidad Continental",
+            "lapse": "Mar. 2015"
+        },
+        {
+            "title": "Computing and Information",
+            "inst": "Instituto Continental",
+            "lapse": "Aug. 2009 – Aug. 2012"
+        }
+    ]
+}

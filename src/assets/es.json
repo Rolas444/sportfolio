@@ -1,0 +1,129 @@
+{
+    "name": "Rolando Samuel Ramírez Quispe",
+    "headline": "Desarrollador Full stack ",
+    "resume": "Desarrollador Web con experiencia en NodeJS, React, Redux, Zustand, PHP, Symfony, Go, Fiber, C#, .NET, SQL entre otras tecnologías del sector. Con pensamiento creativo, resolución de problemas, trabajo en equipo y autonomía.",
+    "contact": {
+        "email": "rolandosamuel.rq@gmail.com",
+        "phone": "+51 943808616",
+        "place": "Perú - Huancayo - Junín"
+    },
+    "links": {
+        "linkedin": "https://www.linkedin.com/in/rolando-ramirez-hr90/",
+        "github": "https://github.com/Rolas444",
+        "twitter": "",
+        "portfolio": "",
+        "docker": "https://hub.docker.com/u/hrodland90"
+    },
+    "portfolio":[
+        {
+            "name":"Next Ecommerce",
+            "repo": [
+                "https://github.com/tomasferro29/pf-front",
+                "https://github.com/Rolas444/ecomerce-admin"
+            ],
+            "prod":[
+                "https://pf-front-phi.vercel.app/",
+                "https://ecomerce-admin.vercel.app/"
+            ],
+            "tools": [
+                "NextJS", "MongoDB", "AWS S3", "TailWind"
+            ]
+        },
+        {
+            "name":"Countries",
+            "repo": [
+                "https://github.com/Rolas444/PI-countries"
+            ],
+            "prod":[
+            ],
+            "tools": [
+                "React", "Redux", "NodeJS", "Express"
+            ]
+        },
+        {
+            "name":"Countries",
+            "repo": [
+                "https://github.com/Rolas444/riada-supabase"
+            ],
+            "prod":[
+            ],
+            "tools": [
+                "React", "Redux", "NodeJS", "Express"
+            ]
+        }
+    ],
+    "techskills": [
+        "React",
+        "NodeJS",
+        "Angular",
+        ".NET",
+        "Go",
+        "PHP",
+        "SQL",
+        "NoSQL",
+        "Solid",
+        "Scrum"
+    ],
+    "softskills": [ 
+        "Proactividad",
+        "Liderazgo",
+        "Versatilidad",
+        "Resiliencia",
+        "Responsabilidad",
+        "Mente abierta"
+    ],
+    "languages": [
+        "Inglés (intermedio)",
+        "Español"
+    ],
+    "expirience": [
+        {
+            "title": "Full Stack Developer - RiadaGo (own project)",
+            "desc": [
+                "Desarrollo de un sistema de gestión de membresía, gastos e ingresos para comunidades religiosas usando: Fiber (backend), React (frontend) y  Postgres como motor de Base de datos",
+                "<a target='_blank' href='https://github.com/Rolas444/RiadaGo'>Github</a>"
+            ],
+            "lapse": "Feb. 2023"
+        },
+        {
+            "title": "Software Developer - Solintels SAC",
+            "desc": [
+                "Dar soporte a los clientes finales de los productos de la compañía (CreediSoft, SofiCoop, etc)",
+                "Resolver y/o implementar las solicitudes de desarrollo aprobadas por el área comercial usando.Net y MSSQL."
+            ],
+            "lapse": "Jun. 2021 – Ago. 2022"
+        },
+        {
+            "title": "Technical Support – Grupo Zarate Verástegui",
+            "desc": [
+                "Acquire, maintain and/or develop technological tools to support the educational service in schools and academies of the institution.",
+                "Development of a task management system with Firebase and Angular."
+            ],
+            "lapse": "Enero. 2017 – Mar. 2019"
+        },
+        {
+            "title": "Full Stack developer - Globitecs SAC",
+            "desc": [
+                "Automatizar de Formato Único del Sistema Integrar de Salud con PHP y Symfony2"
+            ],
+            "lapse": "Jan. 2012 – Mar. 2012"
+        }
+    ],
+    "education": [
+        {
+            "title": "Full stack developer",
+            "inst": "SoyHenry Bootcamp",
+            "lapse": "Aug. 2022 – Mar. 2023"
+        },
+        {
+            "title": "Ingeniería de Sistemas",
+            "inst": "Universidad Continental",
+            "lapse": "Mar. 2015"
+        },
+        {
+            "title": "Computación e Informática",
+            "inst": "Instituto Continental",
+            "lapse": "Aug. 2009 – Aug. 2012"
+        }
+    ]
+}
