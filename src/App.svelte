@@ -2,7 +2,8 @@
   import en from "./assets/en.json";
   import es from "./assets/es.json";
   import fs from "fs";
-  import "@fortawesome/fontawesome-free"
+  import "@fortawesome/fontawesome-free";
+    import { each } from "svelte/internal";
   interface pinfo {
     name: string;
     headline: string;
@@ -40,52 +41,53 @@
 
   let lang: boolean = true;
   // alert(en.name) ;
- var datacv: any = lang ? en : es;
- var theme = false;
+  var datacv: any = lang ? en : es;
+  var theme = false;
 
   let taghtml = document.getElementsByTagName("html");
 
-  const changeTheme = (e)=>{
+  const changeTheme = (e) => {
     e.preventDefault();
-    theme =!theme;
-  if (theme) 
-    taghtml[0].setAttribute("data-theme", "light");
-   else 
-    taghtml[0].setAttribute("data-theme", "dark");
-  }
+    theme = !theme;
+    if (theme) taghtml[0].setAttribute("data-theme", "light");
+    else taghtml[0].setAttribute("data-theme", "dark");
+  };
 
-  const changeLang=(e)=>{
+  const changeLang = (e) => {
     e.preventDefault();
-    lang=!lang;
-    datacv= lang ? en : es;
-  }
-
-
-
-  
+    lang = !lang;
+    datacv = lang ? en : es;
+  };
 </script>
 
-<nav class="container-fluid" >
-  <ul></ul>
-  <ul></ul>
+<nav class="container-fluid">
+  <ul />
+  <ul />
   <ul>
     <li>
-      <a role="button" target="_blank" href="https://drive.google.com/drive/folders/1xL0TgH32Tt1PUs_cPBhDnXXrdElDMkAr?usp=sharing" class="switcher contrast"><i class="bi bi-file-earmark-arrow-down"></i></a>
+      <a
+        role="button"
+        target="_blank"
+        href="https://drive.google.com/drive/folders/1xL0TgH32Tt1PUs_cPBhDnXXrdElDMkAr?usp=sharing"
+        class="switcher contrast"><i class="bi bi-file-earmark-arrow-down" /></a
+      >
     </li>
     <li>
-      <button on:click={changeLang} class="switcher contrast"><i class="bi bi-translate" /></button>
+      <button on:click={changeLang} class="switcher contrast"
+        ><i class="bi bi-translate" /></button
+      >
     </li>
     <li>
-      <button on:click={changeTheme} class="switcher contrast"><i class="bi bi-lightbulb" /></button>
+      <button on:click={changeTheme} class="switcher contrast"
+        ><i class="bi bi-lightbulb" /></button
+      >
     </li>
   </ul>
 </nav>
 
-<section class="container ">
+<section class="container">
   <nav>
-    <ul>
-      
-    </ul>
+    <ul />
     <ul>
       <li>
         <hgroup>
@@ -94,20 +96,26 @@
         </hgroup>
       </li>
     </ul>
-    <ul>
-      
-    </ul>
+    <ul />
   </nav>
 </section>
 <section>
   <div>
     <h5 class="container"><i><em><cite>{datacv.resume}</cite></em></i></h5>
   </div>
-  <nav class="container " >
+  <nav class="container">
     <ul class="row row-cols-auto">
-      <li class="col"><a><i class="bi bi-envelope-at"></i> {datacv.contact.email}</a></li>
-      <li class="col"><a href="https://wa.me/51943808616?text='Hi, Rolando'" target="_blank"><i class="bi bi-whatsapp"></i> {datacv.contact.phone}</a></li>
-      <li class="col"><a><i class="bi bi-geo-alt-fill"></i> {datacv.contact.place}</a></li>
+      <li class="col">
+        <a><i class="bi bi-envelope-at" /> {datacv.contact.email}</a>
+      </li>
+      <li class="col">
+        <a href="https://wa.me/51943808616?text='Hi, Rolando'" target="_blank"
+          ><i class="bi bi-whatsapp" /> {datacv.contact.phone}</a
+        >
+      </li>
+      <li class="col">
+        <a><i class="bi bi-geo-alt-fill" /> {datacv.contact.place}</a>
+      </li>
     </ul>
   </nav>
 </section>
@@ -189,7 +197,40 @@
 </section> -->
 <section>
   <div>
-    <h5 class="center"><strong>Portfolio <i class="bi bi-briefcase-fill" /></strong></h5>
+    <h5 class="center">
+      <strong>Portfolio <i class="bi bi-briefcase-fill" /></strong>
+    </h5>
+  </div>
+  <div class="container-fluid">
+    <div class="row row-cols-1 row-cols-md-2">
+      {#each datacv.portfolio as i}
+        <div class="col">
+          <article>
+            <header>
+              <img src={i.logo?.src} alt="" width="60" />
+              <strong>{i.name}</strong>
+              
+            </header>
+            <abbr>{i.desc}</abbr><hr>
+            <abbr>
+              <ul>
+                {#each i.tools as t}
+                <li>{t}</li>
+                {/each}
+              </ul>
+            </abbr>
+              <small>
+                {#each i.repo as r}
+                  <a href={r} class="secondary" role="button" target="_blank" data-tooltip="code"><i class="bi-file-earmark-code"></i></a>
+                {/each}
+                {#each i.prod as p }
+                <a href={p} class="contrast" role="button" target="_blank" data-tooltip="preview"><i class="bi bi-eye"></i></a>
+                {/each}
+              </small>
+          </article>
+        </div>
+      {/each}
+    </div>
   </div>
 </section>
 
@@ -277,10 +318,10 @@
   lo {
     margin-right: 2em;
   }
-  footer{
-    position: fixed; 
+  footer {
+    position: fixed;
     bottom: 0;
     left: 0;
-    right: 0; 
+    right: 0;
   }
 </style>

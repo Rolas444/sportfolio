@@ -14,6 +14,88 @@
         "portfolio": "",
         "docker": "https://hub.docker.com/u/hrodland90"
     },
+    "portfolio": [
+        {
+            "name": "Next E-commerce",
+            "desc": "Flexible Ecommerce Store with Product Filtering, Shopping Cart, Google Login, Comment and Rating Management.",
+            "logo": {
+                "src": "https://jlwgmhanaccfnuzvwvjb.supabase.co/storage/v1/object/public/rolandorq/Next%20ecomerce.png?t=2023-08-16T18%3A08%3A49.080Z",
+                "alt": "Logo next e-commerce"
+            },
+            "repo": [
+                "https://github.com/tomasferro29/pf-front"
+            ],
+            "prod": [
+                "https://pf-front-phi.vercel.app/"
+            ],
+            "tools": [
+                "NextJS",
+                "MongoDB",
+                "AWS S3",
+                "StyleComponents",
+                "GCC"
+            ]
+        },
+        {
+            "name": "Next E-commerce Admin",
+            "desc": "Administrative Dashboard for Next E-commerce, Administrator Management, CRUD of Entities, Offers and Featured Product Management.",
+            "logo": {
+                "src": "https://jlwgmhanaccfnuzvwvjb.supabase.co/storage/v1/object/public/rolandorq/Next%20ecomerce.png?t=2023-08-16T18%3A08%3A49.080Z",
+                "alt": "Logo next e-commerce"
+            },
+            "repo": [
+                "https://github.com/Rolas444/ecomerce-admin"
+            ],
+            "prod": [
+                "https://ecomerce-admin.vercel.app/"
+            ],
+            "tools": [
+                "NextJS",
+                "MongoDB",
+                "AWS S3",
+                "TailWind",
+                "GCC"
+            ]
+        },
+        {
+            "name": "Countries",
+            "desc": "Tourism Queries and Activity Registration Application by Country, Search and Filters with External API.",
+            "logo": {
+                "src": "https://jlwgmhanaccfnuzvwvjb.supabase.co/storage/v1/object/public/rolandorq/countries.png",
+                "alt": "Countries"
+            },
+            "repo": [
+                "https://github.com/Rolas444/PI-countries"
+            ],
+            "prod": [],
+            "tools": [
+                "React",
+                "Redux",
+                "NodeJS",
+                "Express"
+            ]
+        },
+        {
+            "name": "Riada - Supabase",
+            "desc": "Christian Community Membership Management System and Cash Management (Income-Expense).",
+            "logo": {
+                "src": "https://jlwgmhanaccfnuzvwvjb.supabase.co/storage/v1/object/public/rolandorq/AR%20(1).png?t=2023-08-16T21%3A16%3A13.917Z",
+                "alt": "Riada - Supabase"
+            },
+            "repo": [
+                "https://github.com/Rolas444/riada-supabase"
+            ],
+            "prod": [],
+            "tools": [
+                "React",
+                "Redux",
+                "NodeJS",
+                "Express",
+                "Supabase",
+                "PostgresSQL"
+            ]
+        }
+    ],
     "techskills": [
         "React",
         "NodeJS",

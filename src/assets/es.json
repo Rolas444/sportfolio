@@ -14,46 +14,85 @@
         "portfolio": "",
         "docker": "https://hub.docker.com/u/hrodland90"
     },
-    "portfolio":[
+    "portfolio": [
         {
-            "name":"Next Ecommerce",
-            "desc": [
-                ""
-            ],
+            "name": "Next E-commerce",
+            "desc": "Tienda Ecommerce flexible con Filtrado de productos, carrito de compras, inicio de sesión vía Google, gestion de comentarios y calificaciones.",
+            "logo": {
+                "src": "https://jlwgmhanaccfnuzvwvjb.supabase.co/storage/v1/object/public/rolandorq/Next%20ecomerce.png?t=2023-08-16T18%3A08%3A49.080Z",
+                "alt": "Logo next e-commerce"
+            },
             "repo": [
-                "https://github.com/tomasferro29/pf-front",
+                "https://github.com/tomasferro29/pf-front"
+            ],
+            "prod": [
+                "https://pf-front-phi.vercel.app/"
+            ],
+            "tools": [
+                "NextJS",
+                "MongoDB",
+                "AWS S3",
+                "StyleComponents",
+                "GCC"
+            ]
+        },
+        {
+            "name": "Next E-commerce Admin",
+            "desc": "Panel administrativo para Next E-commerce, gestion de administradores, CRUD de entidades, gestion de ofertas y producto destacado.",
+            "logo": {
+                "src": "https://jlwgmhanaccfnuzvwvjb.supabase.co/storage/v1/object/public/rolandorq/Next%20ecomerce.png?t=2023-08-16T18%3A08%3A49.080Z",
+                "alt": "Logo next e-commerce"
+            },
+            "repo": [
                 "https://github.com/Rolas444/ecomerce-admin"
             ],
-            "prod":[
-                "https://pf-front-phi.vercel.app/",
+            "prod": [
                 "https://ecomerce-admin.vercel.app/"
             ],
             "tools": [
-                "NextJS", "MongoDB", "AWS S3", "TailWind"
+                "NextJS",
+                "MongoDB",
+                "AWS S3",
+                "TailWind",
+                "GCC"
             ]
         },
         {
-            "name":"Countries",
-            "desc": "",
+            "name": "Countries",
+            "desc": " Aplicación de consultas y registro de actividades turísticas por país, busqueda y filtros con API externo.",
+            "logo": {
+                "src": "https://jlwgmhanaccfnuzvwvjb.supabase.co/storage/v1/object/public/rolandorq/countries.png",
+                "alt": "Countries"
+            },
             "repo": [
                 "https://github.com/Rolas444/PI-countries"
             ],
-            "prod":[
-            ],
+            "prod": [],
             "tools": [
-                "React", "Redux", "NodeJS", "Express"
+                "React",
+                "Redux",
+                "NodeJS",
+                "Express"
             ]
         },
         {
-            "name":"Riada - Supabase",
-            "desc": "Sistema",
+            "name": "Riada - Supabase",
+            "desc": "Sistema de gestión de miembros de comunidades cristianas y gestión de caja (ingresos-egresos).",
+            "logo": {
+                "src": "https://jlwgmhanaccfnuzvwvjb.supabase.co/storage/v1/object/public/rolandorq/AR%20(1).png?t=2023-08-16T21%3A16%3A13.917Z",
+                "alt": "Riada - Supabase"
+            },
             "repo": [
                 "https://github.com/Rolas444/riada-supabase"
             ],
-            "prod":[
-            ],
+            "prod": [],
             "tools": [
-                "React", "Redux", "NodeJS", "Express"
+                "React",
+                "Redux",
+                "NodeJS",
+                "Express",
+                "Supabase",
+                "PostgresSQL"
             ]
         }
     ],
@@ -69,7 +108,7 @@
         "Solid",
         "Scrum"
     ],
-    "softskills": [ 
+    "softskills": [
         "Proactividad",
         "Liderazgo",
         "Versatilidad",
